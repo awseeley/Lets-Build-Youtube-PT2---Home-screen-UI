@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.17" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="wiq-d5-xc5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trending-->
+        <scene sceneID="Qpb-OM-RGA">
+            <objects>
+                <viewController id="O8l-aV-6yC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fpe-Xj-LcZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="ESG-Ob-gVU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fdl-pI-Lm8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Trending" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KCd-R1-LoO">
+                                <rect key="frame" x="53" y="330" width="68" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Trending" image="trending" id="14L-UK-tkf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V8d-hx-rZD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426" y="-179"/>
+        </scene>
+        <!--Library-->
+        <scene sceneID="G5n-wa-drV">
+            <objects>
+                <viewController id="Ceh-mb-IFy" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="44n-s9-Har"/>
+                        <viewControllerLayoutGuide type="bottom" id="s0d-Ri-ZKn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0NX-gD-ndR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Library" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkg-e8-BSl">
+                                <rect key="frame" x="100" y="343" width="54" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Library" image="library" id="gaY-WJ-hpg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="euH-Qb-SL8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1223" y="616"/>
+        </scene>
+        <!--Subscriptions-->
+        <scene sceneID="qj4-qQ-KHA">
+            <objects>
+                <viewController id="OXo-3N-15D" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j43-Wj-OFU"/>
+                        <viewControllerLayoutGuide type="bottom" id="RCt-sp-Igm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tJl-54-0bB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Subscriptions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2p8-k9-i3U">
+                                <rect key="frame" x="60" y="350" width="105" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Subscriptions" image="subscriptions" id="Fgv-PG-ja3"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yo0-7W-kJa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-394" y="616"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="8mg-oF-5He">
+            <objects>
+                <viewController id="Kdg-ex-KwE" customClass="HomeViewController" customModule="LetsBuildYoutube" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RJZ-Ju-jMC"/>
+                        <viewControllerLayoutGuide type="bottom" id="g9K-Zy-rjw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JAb-y4-M7j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="OGq-3c-U98">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Kdg-ex-KwE" id="wxx-my-1Hk"/>
+                                    <outlet property="delegate" destination="Kdg-ex-KwE" id="f7c-od-gKG"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OGq-3c-U98" firstAttribute="top" secondItem="JAb-y4-M7j" secondAttribute="top" id="8cw-2i-Nuh"/>
+                            <constraint firstAttribute="trailing" secondItem="OGq-3c-U98" secondAttribute="trailing" id="gPu-02-zaK"/>
+                            <constraint firstItem="OGq-3c-U98" firstAttribute="leading" secondItem="JAb-y4-M7j" secondAttribute="leading" id="iWI-JM-mV2"/>
+                            <constraint firstItem="g9K-Zy-rjw" firstAttribute="top" secondItem="OGq-3c-U98" secondAttribute="bottom" id="j8Q-Ah-5t2"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="yCg-xf-b7S"/>
+                    <connections>
+                        <outlet property="tblHome" destination="OGq-3c-U98" id="1kj-nl-tMf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIC-mI-yB8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-426.39999999999998" y="-944.07796101949032"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dG4-qQ-7eT">
+            <objects>
+                <tabBarController id="wiq-d5-xc5" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="cEZ-1m-AFN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Kdg-ex-KwE" kind="relationship" relationship="viewControllers" id="Q5l-J5-0BR"/>
+                        <segue destination="O8l-aV-6yC" kind="relationship" relationship="viewControllers" id="zpg-Ch-a29"/>
+                        <segue destination="OXo-3N-15D" kind="relationship" relationship="viewControllers" id="Cdr-5b-Jev"/>
+                        <segue destination="Ceh-mb-IFy" kind="relationship" relationship="viewControllers" id="YFh-ku-hpj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eRW-Ts-cFz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1222" y="-224"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="home" width="24" height="20"/>
+        <image name="library" width="20" height="16"/>
+        <image name="subscriptions" width="19" height="18"/>
+        <image name="trending" width="16" height="20"/>
+    </resources>
+</document>
